@@ -1,0 +1,73 @@
+body{
+    background-color: #fbe9e9;
+    color: rgb(16, 4, 53);
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+.woman{
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.login{
+    height: 60px;
+    object-fit: cover;
+}
+.sign{
+    margin-top: 80px;
+    width: 400px;
+    align-self: center;
+    margin-left: 200px;
+    height: 600px;
+    padding: 10px;
+}
+.sign img{
+    margin-left: 100px;
+}
+h1{
+    margin-left: 100px;
+}
+.user-form{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.user-form label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.user-form input{
+    border-radius: 20px;
+    height: 25px;
+    line-height: 1.8cm;
+    text-indent: 10px;
+    font-weight: 600;
+    width: 300px;
+    border: none;
+}
+.done{
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    margin-left: 105px;
+    color: rgb(16, 4, 53);
+    font-weight: 700;
+    background-color: white;
+}
+.pass{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    position: relative;
+}
+.input-1{
+    width: 100%;
+}
+.open{
+    position: absolute;
+    right: 5%;
+    width: 20px;
+}
